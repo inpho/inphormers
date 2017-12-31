@@ -54,15 +54,17 @@
   "roles" : [{"role" : "Undergraduate Programmer", "start" : 2011.66, "end": 2012.33}]},
  
 
+ {"name" : "Indraneel Dey",
+  "roles" : [{"role" : "Undergraduate Programmer", "start" : 2012.66, "end": 2014.00}]},
+ {"name" : "Brent Kievit-Kylar",
+  "current" : "Senior Software Engineer, Google",
+  "roles" : [{"role" : "Research Assistant", "start" : 2012.66, "end": 2013.66}]},
  {"name" : "Jesse Squires",
   "current" : "iOS Developer, PlanGrid",
   "roles" : [{"role" : "Undergraduate Programmer", "start" : 2012.66, "end": 2013.33}]},
  {"name" : "Sam Zorowitz",
   "current" : "PhD Candidate, Neuroscience, Princeton Unversity",
   "roles" : [{"role" : "Undergraduate Programmer", "start" : 2012.66, "end": 2013.33}]},
- {"name" : "Brent Kievit-Kylar",
-  "current" : "Senior Software Engineer, Google",
-  "roles" : [{"role" : "Research Assistant", "start" : 2012.66, "end": 2013.66}]},
  
  {"name" : "Ryan Penelton",
   "roles" : [{"role" : "Undergraduate Programmer", "start" : 2013.00, "end": 2013.33}]},
