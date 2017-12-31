@@ -38,10 +38,6 @@
  {"name" : "Robert Rose",
   "current" : "Lecturer, Indiana University",
   "roles" : [{"role" : "Research Assistant", "start" : 2011.66, "end": 2013.66}]},
- {"name" : "Jun Otsuka",
-  "current" : "Associate Professor, Kyoto University",
-  "roles" : [{"role" : "Research Assistant", "start" : 2011.66, "end": 2013.66}],
-  "link" : "https://junotk.wordpress.com/"},
  
  
  {"name" : "Alex Frost",
@@ -59,6 +55,10 @@
  {"name" : "Brent Kievit-Kylar",
   "current" : "Senior Software Engineer, Google",
   "roles" : [{"role" : "Research Assistant", "start" : 2012.66, "end": 2013.66}]},
+ {"name" : "Jun Otsuka",
+  "current" : "Associate Professor, Kyoto University",
+  "roles" : [{"role" : "Research Assistant", "start" : 2012.66, "end": 2013.33}],
+  "link" : "https://junotk.wordpress.com/"},
  {"name" : "Jesse Squires",
   "current" : "iOS Developer, PlanGrid",
   "roles" : [{"role" : "Undergraduate Programmer", "start" : 2012.66, "end": 2013.33}]},
