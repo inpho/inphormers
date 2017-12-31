@@ -33,7 +33,7 @@ function buildChart(json) {
   }
   console.log(otherData);
 
-  const svg = d3.select("#timeline1").append("svg").attr("width", 500)
+  const svg = d3.select("#timeline1").append("svg").attr("width", 500).attr("height", 1000)
        .datum(otherData).call(chart);
 }
 </script>
