@@ -1,0 +1,18 @@
+[{"name" : "Colin Allen",
+  "roles" : [{"role" : "Director", "start" : 2007}],
+  "link" : "http://colinallen.dnsalias.org/"},
+ {"name" : "Jaimie Murdock",
+  "current" : "Web Applications Developer at arXiv (Cornell)",
+  "roles" : [
+     {"role" : "Undergraduate Programmer", "start" : 2007.66, "end": 2011.66},
+     {"role" : "Research Associate", "start" : 2011.66, "end": 2013.66},
+     {"role" : "Research Assistant", "start" : 2013.66, "end": 2016.33},
+     {"role" : "Consultant", "start" : 2016.33}],
+  "link" : "http://jamram.net"},
+ {"name" : "Jessie Pusateri",
+  "current" : "Hardware Reliability Engineer, Apple Computer",
+  "roles" : [
+    {"role" : "Undergraduate Programmer", "start" : 2014.00, "end": 2016.00},
+    {"role" : "Undergraduate Researcher", "start" : 2016.00, "end": 2016.33}
+  ]}
+]
