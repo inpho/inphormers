@@ -86,10 +86,15 @@
     {"role" : "Undergraduate Researcher", "start" : 2016.00, "end": 2016.33}
   ]},
  
+ {"name" : "Sara Zhang
+  "roles" : [{"role" : "Undergraduate Researcher", "start" : 2014.00, "end": 2014.66}]},
+ 
  {"name" : "Rohit Zawar",
   "roles" : [{"role" : "Graduate Programmer", "start" : 2014.0, "end" : 2015.33}]},
  {"name" : "Aishwarya Iyer",
   "roles" : [{"role" : "Graduate Programmer", "start" : 2014.5, "end" : 2015.33}]},
+ {"name" : "Clayton Tow",
+  "roles" : [{"role" : "Undergraduate Programmer", "start" : 2014.66, "end": 2015.33}]},
  {"name" : "Justin Stamets",
   "roles" : [{"role" : "Undergraduate Researcher", "start" : 2015.00, "end": 2017.00}]},
 
@@ -112,6 +117,8 @@
 
  {"name" : "Kirtan Sakariya",
   "roles" : [{"role" : "Undergraduate Programmer", "start" : 2017.66 }]},
+ {"name" : "Ram Iyer",
+  "roles" : [{"role" : "Undergraduate Programmer", "start" : 2018.25 }]},
 
  {"name" : "Ruth Eberle",
   "roles" : [{"role" : "IU COGS", "start" : 2007.00 }]},
