@@ -119,7 +119,13 @@
   "roles" : [{"role" : "Undergraduate Programmer", "start" : 2017.66 }]},
  {"name" : "Ram Iyer",
   "roles" : [{"role" : "Undergraduate Programmer", "start" : 2018.25 }]},
-
+ {"name" : "Pat Healy",
+  "roles" : [{"role" : "Undergraduate Programmer", "start" : 2018.25 }]},
+ {"name" : "Vanessa Colihan",
+  "roles" : [{"role" : "Undergraduate Programmer", "start" : 2018.25 }]},
+ {"name" : "Rachel Boward",
+  "roles" : [{"role" : "Undergraduate Researcher", "start" : 2018.25 }]},
+ 
  {"name" : "Ruth Eberle",
   "roles" : [{"role" : "IU COGS", "start" : 2007.00 }]},
  {"name" : "Nubli Mohd-Kasa",
