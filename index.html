@@ -26,15 +26,90 @@ const chart = d3.timelines()
 
 function buildChart(json) {
   let otherData = [];
+  var active = [];
+  var inactive = [];
   for (const person of json) {
     otherData.push({"times" : person.roles.map(role => ({"starting_time" : role.start,
                                 "ending_time" : role.end ? role.end : 2018 }) ),
-                    "label" : person.name });
+                    "label" : person.name});
+    if(person.roles[person.roles.length - 1].end) {
+      inactive.push(otherData[otherData.length - 1]);
+    } else {
+      active.push(otherData[otherData.length - 1]);
+    }
   }
+
+  otherData = sortData(inactive, active);
   console.log(otherData);
 
   const svg = d3.select("#timeline1").append("svg").attr("width", 500).attr("height", 1000)
        .datum(otherData).call(chart);
+}
+
+function sortData(inactive, active) {
+  var act = active;
+  var actSums = [];
+  var inact = inactive;
+  var inactSums = [];
+  var i = 0;
+  while(i < act.length) {
+    actSums[i] = calculateSum(act[i]);
+    i++;
+  }
+  i = 0;
+  while(i < inact.length) {
+    inactSums[i] = calculateSum(inact[i]);
+    i++;
+  }
+  act = sort(act, actSums);
+  inact = sort(inact, inactSums);
+  var newArr = act;
+  i = 0;
+  while(i < inact.length) {
+    newArr.push(inact[i]);
+    i++;
+  }
+  return newArr;
+}
+
+function calculateSum(person) {
+  var j = 0;
+  var sum = 0;
+  while(j < person.times.length) {
+    sum += person.times[j].ending_time - person.times[j].starting_time;
+    j++;
+  }
+  return sum;
+}
+
+function sort(arr, sums) {
+  var i = 1;
+  var boo = false;
+  var ret;
+  do {
+    boo = false;
+    i = 1;
+    while(i < arr.length) {
+      if(sums[i - 1] < sums[i]) {
+        ret = exch(arr, sums, i - 1, i);
+        arr = ret[0];
+        sums = ret[1];
+        boo = true;
+      }
+      i++;
+    }
+  } while(boo);
+  return arr;
+}
+
+function exch(arr, sums, i, j) {
+  var temp = arr[i];
+  var temp2 = sums[i];
+  arr[i] = arr[j];
+  sums[i] = sums[j];
+  arr[j] = temp;
+  sums[j] = temp2;
+  return [arr, sums];
 }
 </script>
 
